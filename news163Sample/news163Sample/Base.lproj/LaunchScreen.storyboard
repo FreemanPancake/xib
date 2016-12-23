@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OQZ-PO-5jc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ghl-5t-6lZ">
+            <objects>
+                <viewController storyboardIdentifier="launch" id="OQZ-PO-5jc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zdr-LV-wFj"/>
+                        <viewControllerLayoutGuide type="bottom" id="tGc-hE-2nS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xha-F4-9U2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="99.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="V5m-U0-gIl">
+                                <rect key="frame" x="-163" y="-289" width="700" height="1245"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网易新闻 有态度°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNE-oc-CvY">
+                                <rect key="frame" x="86" y="567" width="238" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Gv7-SF-ToJ"/>
+                                    <constraint firstAttribute="width" constant="238" id="xBw-rg-Q3e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright©2016,NetEase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zJ-G5-8ei">
+                                <rect key="frame" x="103" y="614" width="240" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3fz-i6-srU"/>
+                                    <constraint firstAttribute="width" constant="240" id="qOl-1W-vE8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="9zJ-G5-8ei" firstAttribute="leading" secondItem="Xha-F4-9U2" secondAttribute="leadingMargin" constant="87" id="5To-jV-dsc"/>
+                            <constraint firstItem="bNE-oc-CvY" firstAttribute="centerX" secondItem="V5m-U0-gIl" secondAttribute="centerX" constant="17.5" id="CAb-8G-j0p"/>
+                            <constraint firstItem="bNE-oc-CvY" firstAttribute="centerY" secondItem="Xha-F4-9U2" secondAttribute="centerY" constant="247.5" id="lQn-d8-tFq"/>
+                            <constraint firstItem="bNE-oc-CvY" firstAttribute="centerY" secondItem="V5m-U0-gIl" secondAttribute="centerY" constant="247.5" id="lTc-Ek-jMW"/>
+                            <constraint firstItem="9zJ-G5-8ei" firstAttribute="top" secondItem="bNE-oc-CvY" secondAttribute="bottom" constant="19" id="srq-w8-fGH"/>
+                            <constraint firstItem="bNE-oc-CvY" firstAttribute="leading" secondItem="Xha-F4-9U2" secondAttribute="leadingMargin" constant="70" id="wg9-WL-17L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bNE-oc-CvY" secondAttribute="trailing" constant="35" id="y6z-ke-zW8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ePO-Z4-LuI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="237.93103448275863"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="99.jpg" width="700" height="1245"/>
+    </resources>
+</document>
